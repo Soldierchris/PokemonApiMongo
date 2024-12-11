@@ -1,0 +1,70 @@
+Estructura de proyecto para una API con Node.js, Express y MongoDB que sigue los principios de MVC:
+
+project-root/
+│
+├── src/
+│   ├── models/
+│   │   ├── user.model.js
+│   │   ├── product.model.js
+│   │   └── order.model.js
+│   │
+│   ├── controllers/
+│   │   ├── user.controller.js
+│   │   ├── product.controller.js
+│   │   └── order.controller.js
+│   │
+│   ├── routes/
+│   │   ├── user.routes.js
+│   │   ├── product.routes.js
+│   │   ├── order.routes.js
+│   │   └── index.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   ├── error.middleware.js
+│   │   └── validation.middleware.js
+│   │
+│   ├── services/
+│   │   ├── user.service.js
+│   │   ├── product.service.js
+│   │   └── order.service.js
+│   │
+│   ├── utils/
+│   │   ├── apiError.js
+│   │   ├── validation.js
+│   │   └── helpers.js
+│   │
+│   ├── config/
+│   │   ├── database.js
+│   │   ├── environment.js
+│   │   └── logger.js
+│   │
+│   └── validators/
+│       ├── user.validator.js
+│       ├── product.validator.js
+│       └── order.validator.js
+│
+├── tests/
+│   ├── unit/
+│   │   ├── user.test.js
+│   │   ├── product.test.js
+│   │   └── order.test.js
+│   │
+│   └── integration/
+│       ├── user.integration.test.js
+│       └── product.integration.test.js
+│
+├── logs/
+│   ├── error.log
+│   └── combined.log
+│
+├── postman/
+│   └── collection.json
+│
+├── docs/
+│   └── api-documentation.md
+│
+├── .env
+├── .gitignore
+├── package.json
+└── server.js

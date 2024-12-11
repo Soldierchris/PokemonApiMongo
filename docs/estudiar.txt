@@ -1,0 +1,6 @@
+prácticas de arquitectura de software.
+Creación de una interfaz de la API dentro del Index
+websocket
+controlador de eventos
+DOble factor de seguridad
+ACL

@@ -1,0 +1,60 @@
+Estructura para proyecto Express.js (Node.js):
+
+
+
+project-root/
+│
+├── src/
+│   ├── models/
+│   │   ├── user.model.js
+│   │   ├── product.model.js
+│   │   └── index.js
+│   │
+│   ├── views/
+│   │   ├── layouts/
+│   │   │   └── main.ejs
+│   │   ├── users/
+│   │   │   ├── profile.ejs
+│   │   │   └── list.ejs
+│   │   └── products/
+│   │       ├── detail.ejs
+│   │       └── list.ejs
+│   │
+│   ├── controllers/
+│   │   ├── user.controller.js
+│   │   ├── product.controller.js
+│   │   └── auth.controller.js
+│   │
+│   ├── routes/
+│   │   ├── user.routes.js
+│   │   ├── product.routes.js
+│   │   └── index.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   └── error.middleware.js
+│   │
+│   ├── services/
+│   │   ├── user.service.js
+│   │   └── product.service.js
+│   │
+│   └── utils/
+│       ├── validation.js
+│       └── helpers.js
+│
+├── public/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├── config/
+│   ├── database.js
+│   └── environment.js
+│
+├── tests/
+│   ├── models/
+│   ├── controllers/
+│   └── services/
+│
+├── package.json
+└── server.js
