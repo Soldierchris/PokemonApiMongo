@@ -10,29 +10,7 @@
 ***
 La siguiente APIResful conserva los principios de arquitectura del MVC, organizado dentro de la carpeta src
 
-API_POKEMON/
-│
-├── src/
-│   ├── models/
-│   │   ├── pokemon.model.js
-│   │   └── user.model.js
-│   │
-│   ├── controllers/
-│   │   ├── auth.controller.js
-│   │   └── pokemon.controller.js
-│   │   
-│   │
-│   ├── routes/
-│   │   ├── auth.routes.js
-│   │   ├── pokenon.routes.js
-│   │   └── index.js
-│   │
-│   ├── middleware/
-│   │   └── validationPokemon.js
-│   │
-│   ├── services/
-       └── pokemon.service.js
-
+![alt text](image.png)
 
 La APi Utiliza las siguientes librerias:
 
@@ -45,10 +23,7 @@ Utiliza el siguiente Framework
 express@4.21.1
 
 ### Screenshot
-![alt text](<Captura de pantalla (298).png>)
 
-
-![alt text](<Captura de pantalla (299).png>)
 
 ## Tecnologías
 ***
