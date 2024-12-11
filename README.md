@@ -34,14 +34,14 @@ API_POKEMON/
        └── pokemon.service.js
 
 
-Utiliza las siguientes librerias:
+La APi Utiliza las siguientes librerias:
 
 dotenv@16.4.7
 joi@17.13.3
 jsonwebtoken@9.0.2
 node@22.12.0
 
-Utiliza el siuiente Framework
+Utiliza el siguiente Framework
 express@4.21.1
 
 ### Screenshot
