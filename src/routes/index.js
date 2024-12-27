@@ -22,6 +22,7 @@ app.listen (port, ()=>{
 })
 */
 const express = require('express');
+const app = express();
 
 // Import repositories
 const UserRepository = require('../repositories/user.repository');
@@ -35,7 +36,6 @@ const PokemonService = require('../services/pokemon.service');
 const AuthController = require('../controllers/auth.controller');
 const PokemonController = require('../controllers/pokemon.controller');
 
-const app = express();
 
 // Instantiate repositories
 const userRepository = new UserRepository();

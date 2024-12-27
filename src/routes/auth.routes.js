@@ -7,6 +7,8 @@ router.get("/", authController.get)
 
 module.exports = router;
 */
+//app.use('/auth', require('../routes/auth.routes')(authController));
+
 const express = require('express');
 
 function authRoutes(authController) {
